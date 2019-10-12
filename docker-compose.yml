@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  fastify-server:
+    container_name: fastiy-server
+    build: 
+      context: ./server
+    volumes:
+      - ./server/:/usr/src/app/
+    ports:
+      - 3000:3000
