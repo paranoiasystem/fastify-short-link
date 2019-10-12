@@ -1,0 +1,25 @@
+{
+  "name": "fastify-short-link",
+  "version": "1.0.0",
+  "description": "fastify short link",
+  "main": "index.js",
+  "scripts": {
+    "start": "fastify-app run",
+    "dev": "fastify-app run -l info -P -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paranoiasystem/fastify-short-link.git"
+  },
+  "author": "ParanoiaSystem",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paranoiasystem/fastify-short-link/issues"
+  },
+  "homepage": "https://github.com/paranoiasystem/fastify-short-link#readme",
+  "dependencies": {
+    "dotenv": "^8.1.0",
+    "fastify": "^2.10.0",
+    "fastify-autoload": "^1.0.0"
+  }
+}
