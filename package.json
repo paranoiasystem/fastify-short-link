@@ -19,7 +19,7 @@
   "homepage": "https://github.com/paranoiasystem/fastify-short-link#readme",
   "dependencies": {
     "dotenv": "^8.1.0",
-    "fastify": "^2.10.0",
+    "fastify": "^2.15.1",
     "fastify-autoload": "^1.0.0",
     "fastify-mongodb": "^2.0.0",
     "fastify-plugin": "^1.6.0"
